@@ -26,12 +26,12 @@ repository               : "PrasanthJayaraman/PrasanthJayaraman.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus"
   disqus:
-    shortname            : "https-prasanthj-com."
+    shortname            : "prasanthj"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -108,16 +108,29 @@ analytics:
 author:
   name             : "Prasanth J"
   avatar           : "/assets/images/me.png"
-  bio              : "Thinking, Reading, Collecting, Designing, Coding, Debugging, Deploying, Making, Writing and Playing Around..."
-  location         : "Bangalore"
+  bio              : "Thinking, Reading, Writing, Collecting, Designing, Coding, Developing, Debugging, Deploying and Playing Around..."
+  location         : "Bangalore, India"
   email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:prasanthj@outlook.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "mailto:prasanthj@outlook.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ajprasa"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/jprasanth74"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/PrasanthJayaraman"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/prasanthjayaraman/"
+
+# Site Footer
+footer:
+  links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ajprasa"
@@ -130,28 +143,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/prasanthjayaraman/"
-
-# Site Footer
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
 
 
 # Reading Files
@@ -260,9 +251,9 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
+jekyll-archives:
+  enabled:
+    - categories
 #     - tags
 #   layouts:
 #     category: archive-taxonomy
@@ -290,6 +281,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
