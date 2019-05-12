@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Node Widgets"
-permalink: /node-widgets/
+permalink: /garage/node-widgets/
 author_profile: true
 share: true
 ---
