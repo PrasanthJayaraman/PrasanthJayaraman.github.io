@@ -69,7 +69,7 @@ Creating observables is easy, just call the new Observable() and pass along one 
  }
 }
 ```
-When **observer.next()** is called in the observables the data passed inside the **next()** is sent to all the subscribers across the application. Now we have created an observable, lets subscribe to this observables in a component. 
+When ```observer.next()``` is called in the observables the data passed inside the ```next()``` is sent to all the subscribers across the application. Now we have created an observable, lets subscribe to this observables in a component. 
 
 ## Subscribing to observables
 Remember, observables are lazy. If you don’t subscribe nothing is going to happen. It’s good to know that when you subscribe to an observer, each call of subscribe() will trigger it’s own independent execution for that given observer. Subscribe calls are not shared among multiple subscribers to the same observable.

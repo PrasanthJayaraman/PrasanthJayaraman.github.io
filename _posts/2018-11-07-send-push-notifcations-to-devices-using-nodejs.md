@@ -29,7 +29,7 @@ Now install the [**fcm-node**](https://www.npmjs.com/package/fcm-node) in your n
     npm install fcm-node
 ```
 
-This is a simple nodejs firebase cloud messaging library which sends push to one or multiple devices using a function **fcm.send**, it also supports promises instead callbacks. Do not forget to get the android device token from your android device and save it in your database.
+This is a simple nodejs firebase cloud messaging library which sends push to one or multiple devices using a function ```fcm.send```, it also supports promises instead callbacks. Do not forget to get the android device token from your android device and save it in your database.
 
 ```javascript
     // Notifications.js
@@ -62,9 +62,9 @@ This is a simple nodejs firebase cloud messaging library which sends push to one
     });
 ```
 
-You can collapse multiple notifcations of same application in your android device with **collapse_key** and maximum of 4 collapse key is used. 
+You can collapse multiple notifcations of same application in your android device with ```collapse_key``` and maximum of 4 collapse key is used. 
 
-With **fcm-node** you can send notifications to multiple devices by replacing **to** with **registration_ids** in the message object.
+With ```fcm-node``` you can send notifications to multiple devices by replacing ```to``` with ```registration_ids``` in the message object.
 
 ```javascript
     var message = { 
