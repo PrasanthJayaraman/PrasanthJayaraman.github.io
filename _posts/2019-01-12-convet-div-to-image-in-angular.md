@@ -39,7 +39,7 @@ Incase if you are using this for a plain javascript web application then you can
 
 Let's say you want to capture screenshot of div in you web application. Example, in the below image the black highlighted part is the div you need to capture. So first make sure you hav set an **id** to the element. 
 
-[![screenshot1](https://prasanthj.com/assets/images/html2canvas-1.png)](https://prasanthj.com/assets/images/html2canvas-1.png)
+[![screenshot1](https://prasanthj.com/assets/uploads/html2canvas-1.png)](https://prasanthj.com/assets/uploads/html2canvas-1.png)
 
 The **html2canvas** is a simple library, the function expects an argument which is the DOM element of the web page in other words the DOM element which you want to export as image. 
 
@@ -69,4 +69,4 @@ To allow user to save manually in their machine, use **window.saveAs()** functio
 
 The downloaded image will be like this finally..
 
-[![screenshot2](https://prasanthj.com/assets/images/html2canvas-2.png)](https://prasanthj.com/assets/images/html2canvas-2.png)
+[![screenshot2](https://prasanthj.com/assets/uploads/html2canvas-2.png)](https://prasanthj.com/assets/uploads/html2canvas-2.png)
