@@ -7,7 +7,7 @@ tags:
 comments: true
 ---
 
-The best way to communicate between angular components is to use an **Observables**. I won't go too much into the details about how observables work here since it's a big subject. So will explain in simple terms and dive directly with the code.
+The best way to communicate between angular components is to use an **Observables**. I won't go too much into the details about how observables work here since it's a big subject. So will explain in simple terms and dive directly with the code. Before starting i hope you know what is components in angular, if not, this [article](https://www.toptal.com/angular/angular-components-overview-101) can help you to get started.
 
 # Observables
 
