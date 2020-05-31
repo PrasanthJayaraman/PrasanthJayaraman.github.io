@@ -54,18 +54,18 @@ perfectSize(50);
 Let's say for High Definition TVs
 
 ```
-720p Resolution TV = 1280 x 720 progressive scan. (Total pixels = 921,600)
+720p Resolution TV = 1280 x 720 (Total pixels = 921,600)
 perfectSize(50) is 23.589
 ````
 
 similarly,
 
 ````
-1080p Resolution TV = 1920 x 1080 progressive scan. (Total pixels = 2,073,600)
+1080p Resolution TV = 1920 x 1080 (Total pixels = 2,073,600)
 perfetctSize(50) is 15.726
 ````
 
-So using the module we can achieve pixel perfect application which reflects our design UI perfectly.
+So using the module we can achieve pixel perfect application which reflects our UI design perfectly.
 
 Now let's combine all these together for a perfect and dynamic adaptive application.
 
