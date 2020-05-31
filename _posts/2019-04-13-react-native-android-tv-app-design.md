@@ -17,7 +17,7 @@ Now let's come to react-native, In react-native we have `flexbox` which helps to
 But the flexbox alone is not helpful. We may also need to use `%` in the styles as `react-native@0.42` support % in the CSS styles.
 
 But i had a thought that using '%' is still not a recommended way where my application gonna be used in thousands of TVs of different
-screen sizes. So i looked further in react-native documentation and found [**Dimensions**](https://reactnative.dev/docs/dimensions)
+screen sizes. So i searched for a reliable soultion and found [**Dimensions**](https://reactnative.dev/docs/dimensions)
 , [**PixelRatio**](https://reactnative.dev/docs/pixelratio) and [**React Native Pixel Perfect**](https://www.npmjs.com/package/react-native-pixel-perfect)
 
 ## Dimensions
@@ -56,12 +56,14 @@ Let's say for High Definition TVs
 ```
 720p Resolution TV = 1280 x 720 progressive scan. (Total pixels = 921,600)
 perfectSize(50) is 23.589
+````
 
 similarly,
 
+````
 1080p Resolution TV = 1920 x 1080 progressive scan. (Total pixels = 2,073,600)
 perfetctSize(50) is 15.726
-```
+````
 
 So using the module we can achieve pixel perfect application which reflects our design UI perfectly.
 
