@@ -3,7 +3,7 @@
 
 <div itemscope itemtype="https://schema.org/Person">
 
-  {% if author.avatar %}
+  {# {% if author.avatar %}
     <div class="author__avatar">
       {% if author.avatar contains "://" %}
         {% assign author_src = author.avatar %}
@@ -24,7 +24,7 @@
         <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
       {% endif %}
     </div>
-  {% endif %}
+  {% endif %} #}
 
   <div class="author__content">
     {% if author.home %}
@@ -42,6 +42,11 @@
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
+        <li>
+        <a href="https://stackoverflow.com/users/2148827/prasanth-jaya" rel="nofollow noopener noreferrer"> 
+          <img width="208" height="58" src="https://stackoverflow.com/users/flair/2148827.png?theme=clean" />
+        </a>
+      </li>
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
           <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
@@ -54,13 +59,7 @@
             <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
           {% endif %}
         {% endfor %}
-      {% endif %}
-      
-      <li>
-        <a href="https://stackoverflow.com/users/2148827/prasanth-jaya" rel="nofollow noopener noreferrer"> 
-          <img width="208" height="58" src="https://stackoverflow.com/users/flair/2148827.png?theme=clean" />
-        </a>
-      </li>
+      {% endif %}          
 
       {% if author.uri %}
         <li>
