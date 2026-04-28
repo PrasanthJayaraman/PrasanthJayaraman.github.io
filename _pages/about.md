@@ -6,6 +6,8 @@ author_profile: true
 ---
 
 
-Oh! Hello, Internet Stranger. My name **Prasanth** and I'm an aspiring **Full Stack Developer**. (That's me on the Left). I'm currently working with JavaScript Environment (Angular, React, Ionic, NodeJs and a few more). Not stoping here, I'm updating myself with Machine Learning and few other things. I'll be sharing samples of some of my work here down the road as i add my skill set, so stay tuned for updates.
+Oh! Hello, Internet Stranger, I'm **Prasanth Jayaraman** — a passionate Senior Full Stack Developer with hands-on experience building dynamic, scalable web and mobile applications. I work across the JavaScript ecosystem, including React, React Native, Ionic, Node.js servers, delivering end-to-end solutions from intuitive front-end interfaces to robust back-end systems.
 
-Feel free to contact me with any project proposals.
+I'm a firm believer in continuous learning — currently expanding my expertise into Machine Learning and emerging technologies to stay ahead of the curve. Whether it's crafting seamless user experiences or engineering efficient server-side logic, I bring curiosity and commitment to every project I take on.
+
+I'll be showcasing selected work and projects here as my journey evolves, so watch this space. If you have a project in mind or just want to connect, feel free to reach out — I'd love to hear from you.
